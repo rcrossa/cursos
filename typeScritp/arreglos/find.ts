@@ -1,7 +1,7 @@
 interface Alumno{
     alumnoID:number;
     nombre: string;
-    apellido: string;
+    apellido: string:
 }
 
 var alumnos:Alumno[] =[];
