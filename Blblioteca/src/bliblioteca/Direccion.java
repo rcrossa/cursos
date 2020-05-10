@@ -1,9 +1,9 @@
-package cliente;
+package bliblioteca;
 
 public class Direccion {
-        
-	    public String address;
-        public int numero;
+         
+		public String address;
+		public int numero;
 		public String getaddress() {
 			return address;
 		}
@@ -19,6 +19,6 @@ public class Direccion {
 		
 		
 		public String toString () {
-			return "Calle :" + address + "Numero: " + numero;
+			return "calle: " + address + "numero :" + numero ;
 		}
 }

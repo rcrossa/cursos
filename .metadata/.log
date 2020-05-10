@@ -941,3 +941,6 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -data /Users/patricia
 
 !ENTRY org.eclipse.core.net 1 0 2020-05-09 23:30:39.711
 !MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui.monitoring 2 0 2020-05-09 23:45:47.000
+!MESSAGE UI freeze of 0.83s at 23:45:46.164

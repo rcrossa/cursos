@@ -3,7 +3,7 @@ package calcularCuentas;
 public class Cuenta {
 
 	private int calcular=0;
-	private int contador;
+	
 	
 	public int suma() {
 		
