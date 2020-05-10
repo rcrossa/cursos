@@ -2,6 +2,7 @@ package bliblioteca;
 
 public class Direccion {
          
+		
 		public String address;
 		public int numero;
 		public String getaddress() {
@@ -17,8 +18,9 @@ public class Direccion {
 			this.numero = numero;
 		}
 		
-		
 		public String toString () {
-			return "calle: " + address + "numero :" + numero ;
+			return "calle: " + address + "Numero :" + numero ;
 		}
+		
+		
 }
