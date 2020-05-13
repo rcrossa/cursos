@@ -17,10 +17,10 @@ public class Direccion {
 		public void setNumero(int numero) {
 			this.numero = numero;
 		}
-		
-		public String toString () {
-			return "calle: " + address + "Numero :" + numero ;
-		}
+//		
+//		public String toString () {
+//			return  address+ " "  + numero ;
+//		}
 		
 		
 }

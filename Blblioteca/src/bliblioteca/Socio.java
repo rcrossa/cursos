@@ -8,8 +8,6 @@ public class Socio {
 	private int telefono;
 	private Direccion address;
 	private Direccion numero;
-	private Prestamo Titulo;
-	private Prestamo fecha;
 	public int getCustomerid() {
 		return customerid;
 	}
@@ -52,24 +50,19 @@ public class Socio {
 	public void setNumero(Direccion numero) {
 		this.numero = numero;
 	}
-	public Prestamo getTitulo() {
-		return Titulo;
-	}
-	public void setTitulo(Prestamo titulo) {
-		Titulo = titulo;
-	}
-	public Prestamo getFecha() {
-		return fecha;
-	}
-	public void setFecha(Prestamo fecha) {
-		this.fecha = fecha;
-	}
+
+
 	
 
-	public String toString() {
-		return "Numero de cliente: " + customerid + "\nNombre: " + nombre + "\nApellido: " + apellido + "\nDni: " + dni + "\nTelefono: " + telefono + "\nDireccion: " + address.getaddress() + "\nNumero: "+ numero.getNumero()+"\nEl libro prestado es:" + Titulo.getTitulo()+ "\nFecha de prestamo: "+ fecha.getFecha(); 
- 
-	}
+//	public String toString() {
+//		return 
+//				"Numero de cliente: " + customerid + 
+//				"\nNombre : " + nombre 	+ 
+//				"\nApellido: " + apellido + 
+//				"\nDni: " + dni + "\nTelefono: " + telefono 
+//				+ "\nDireccion: " + address + 
+//				"\nNumero: "+ numero ;
+//	}
 
 	
 

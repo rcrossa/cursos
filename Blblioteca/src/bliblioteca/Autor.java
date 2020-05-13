@@ -3,6 +3,10 @@ package bliblioteca;
 public class Autor {
 	private String nombre;
 	private String apellido;
+	
+	
+	
+	
 	public String getNombre() {
 		return nombre;
 	}
@@ -15,4 +19,8 @@ public class Autor {
 	public void setApellido(String apellido) {
 		this.apellido = apellido;
 	}
+   
+//	public String toString() {
+//		return "\nNombre: "+ nombre.getBytes() + "\nApellido: " + apellido.getBytes();
+//	}
 }
