@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="poo_davinci/calcularCuentas/src"/>
+	<classpathentry kind="src" path="poo_davinci/cliente/src"/>
+	<classpathentry kind="src" path="poo_davinci/Cuentas/src"/>
+	<classpathentry kind="src" path="poo_davinci/Empleados/src"/>
+	<classpathentry kind="src" path="poo_davinci/librocalificaciones/src"/>
+	<classpathentry kind="src" path="poo_davinci/ProyectoEmpleados/src"/>
+	<classpathentry kind="output" path="poo_davinci/cliente/bin"/>
+</classpath>
