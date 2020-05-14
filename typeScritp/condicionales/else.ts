@@ -1,0 +1,7 @@
+var boletosVendidos:number = 45;
+
+if(boletosVendidos>50){
+    console.log("Perfecto estamos bien en las ventas")
+}else{
+    console.log("Tenemos que mejorar")
+}

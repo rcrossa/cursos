@@ -1,0 +1,10 @@
+var esnuevo = false;
+var deseaImprimir = true;
+var juan = "juan";
+var juan2 = "juan";
+var aceptaDescuento = (15 + 19 == 33);
+var sonNombresIguales = (juan == juan2);
+console.log("Este booleano es: ", aceptaDescuento);
+console.log("Este booleano es: ", sonNombresIguales);
+var sonAmbosVerdaderos = sonNombresIguales && aceptaDescuento;
+console.log("El resultado de dos booleanos: ", sonAmbosVerdaderos);
