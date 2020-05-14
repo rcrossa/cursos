@@ -1,2 +1,2 @@
 # cursos
-cursos
+Repositorio de aprendizaje.
