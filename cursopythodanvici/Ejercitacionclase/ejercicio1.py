@@ -1,13 +1,30 @@
-import sys
-from 
+
+
+import a
+
+
+b="el texto nuevo"
+a.contador(b)
+a.separacaracteres(b)
+
+
+
+
+
+
+
+
+
+
+
+
 # b = str(print(input("texto:")))
 # a = str(print(input("contador(1) o separador de caracteres(2): ")))
 
 # c=str(print(input("texto:")))
 # c=int(print(input("contador(1)")))
-print("Ingrese texto")
-b=input()
-
+# print("Ingrese texto")
+# b=input()
 # print("separar caracteres(1) o contar(2)")
 # c=input()
 # b="El trece tv"

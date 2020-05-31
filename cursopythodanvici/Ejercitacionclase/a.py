@@ -1,8 +1,12 @@
 from collections import Counter
-
+from random import randint
 def separacaracteres(b):
            x= b.split()
-           return(x)
+           print(x)
             
 def contador(b):
-            return(Counter(b))
+            print(Counter(b))
+
+def numerorandom():
+            numero=int(randint(0,100))
+            return numero
