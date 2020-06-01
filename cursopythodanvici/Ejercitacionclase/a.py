@@ -1,5 +1,5 @@
 from collections import Counter
-from random import randint
+
 def separacaracteres(b):
            x= b.split()
            print(x)
