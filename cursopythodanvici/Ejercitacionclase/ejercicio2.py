@@ -1,26 +1,28 @@
-from funcionesejercicios import numerorandom, numero5
+import funcionesejercicios
 
 
 
-
-
-n=numerorandom()
+# n=numerorandom()
+a=[1,2,5]
 resul=0
 monedas5=0
 monedas2=0
 monedas1=0
-
+a=0
+n=0
+n=funcionesejercicios.numerorandom(n)
 
 
 print("Numero random: ",n)
 
+resul=funcionesejercicios.numero5(resul)
 # if resul < n:
 #     if 5 in a:
 #         while resul < n:
 #             resul+=5
 #             monedas5+=1
 
-funcionesejercicios.numero5(resul)
+
     
 # print("primer cantidad:",resul)
 # resul=5*monedas5
@@ -60,9 +62,9 @@ if(resul>n):
 
 if resul < n :
     if 1 in a:
-       while resul < n:
-          resul+=1
-          monedas1+=1    
+        while resul < n:
+            resul+=1
+            monedas1+=1    
 
 # resul3=1*monedas1
 # resul=resul+resul3

@@ -3,7 +3,7 @@ from random import randint
 
 a=[1,2,5]
 
-
+n=0
 monedas5=0
 monedas2=0
 monedas1=0
@@ -18,7 +18,7 @@ def contador(b):
 
 # Ejercicio 2
 
-def numerorandom():
+def numerorandom(n):
             numero=int(randint(0,100))
             return numero
 
