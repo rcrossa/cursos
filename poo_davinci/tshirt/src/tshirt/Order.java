@@ -2,13 +2,12 @@ package tshirt;
 
 public class Order {
 	
-	
+	   private double totalprice;
 	    
-	    public double addString(Shirt s) {
-	    	return s;
-	    }
-		public Shirt price(Shirt price) {
-			return price;
+	   public double addShirt(Shirt s) {
+		    totalprice= totalprice + s.getPrice();
+		    return totalprice ;
+	   }
 		}		
 		
-}
+
