@@ -1,4 +1,4 @@
-import cursopythodanvici.Ejercitacionclase.funcionesejercicios
+import funcionesejercicios
 
 
 
@@ -8,9 +8,13 @@ resul=0
 monedas5=0
 monedas2=0
 monedas1=0
+resul=0
 a=0
 n=0
 n=funcionesejercicios.numerorandom(n)
+valores=0
+
+
 
 
 print("Numero random: ",n)
@@ -28,12 +32,12 @@ resul=funcionesejercicios.numero5(resul)
 # resul=5*monedas5
 # print("Primer result:",resul)
 
-if(resul>n):
+if(resul > n):
     monedas5=monedas5-1
-    # print("monedas if:",monedas5)
+    print("monedas:",monedas5)
     resul=resul-5
     resul=5*monedas5
-# print("Segundo result:",resul)
+    print("Segundo result:",resul)
 
 
     if resul<n:
@@ -42,8 +46,8 @@ if(resul>n):
                 resul+=2
                 monedas2=monedas2+1
 
-        #   resul2=2*monedas2
-        #   resul=resul+resul2
+    resul2=2*monedas2
+        #  resul=resul+resul2
 
 # print("Segunda cantidad:",resul)
 

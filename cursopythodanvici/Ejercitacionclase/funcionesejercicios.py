@@ -30,6 +30,7 @@ def numero5(resul):
                 while resul < n:
                         resul+=5
                         monedas5+=1
+                        return resul
 
 
 
