@@ -1,7 +1,7 @@
 from collections import Counter
 from random import randint
 
-a=[1,2,5]
+a = ['1', '2', '5']
 resul=0
 n=0
 monedas5=0
@@ -26,30 +26,38 @@ def numerorandom(n):
 
 
 def numero5(resul):
-         if resul < n:
-            for a in range(3):
+          for a in range(3):
                     if a%5==0:
                         while resul < n:
-                                resul+=5
-                                monedas5+=1
-                                
-                                return resul
+                            resul+=5
+                            monedas5=monedas5+1
+                    if resul > n:
+                        monedas5=monedas5-1
+                        resul=resul-5
+                        resul=5*monedas5
+                    return resul
 
 
 def numero2(resul):
-        if resul<numerorandom:
-            if resul%2 in a:
-                while resul < n:
-                    resul+=2
-                    monedas2=monedas2+1
+        for a in range(3):
+                    if a%2==a:
+                        while resul < n:
+                            resul+=2
+                            monedas2=monedas2+1
+                    if resul>n:
+                             while resul>n:
+                                    monedas2=monedas2-1
+                                    resul=resul-2
                     return resul
 
 def numero1(resul):
-        if resul<n:
-            if 2 in a:
-                while resul < n:
-                    resul+=2
-                    monedas2=monedas2+1
+        for a in range(3):
+                    if a%1==a:
+                        while resul < n:
+                            resul+=1
+                            monedas1+=1
+                    resul3=1*monedas1
+                    resul=resul+resul3
                     
 
 def suma (monedas5):
