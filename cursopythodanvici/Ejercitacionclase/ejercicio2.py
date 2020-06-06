@@ -1,4 +1,4 @@
-import funcionesejercicios
+import cursopythodanvici.Ejercitacionclase.funcionesejercicios
 
 
 
