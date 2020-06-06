@@ -16,7 +16,6 @@ valores=0
 
 
 
-
 print("Numero random: ",n)
 
 resul=funcionesejercicios.numero5(resul)
@@ -62,7 +61,10 @@ if(resul>n):
     # print("monedas if:",monedas5)
 # print("Segundo result:",resul)
 
-
+for e in a:
+    if e == 1:
+        break
+    print(e)
 
 if resul < n :
     if 1 in a:
