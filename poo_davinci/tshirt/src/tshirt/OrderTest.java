@@ -21,9 +21,9 @@ public class OrderTest {
 			c2.setColorCode("c");
 			c2.setQuantityInStock("3");
 			
-			totalcost=o1.addShirt(c1);
-			totalcost=o2.addShirt(c2);
-			System.out.println(c1.toString()+"\n"+c2.toString());
+			totalcost=o1.addShirt(c1)+o2.addShirt(c2);
+			System.out.println(c1.toString()+c2.toString());
+			System.out.println("Total: "+totalcost);
 			
 			
 	}
